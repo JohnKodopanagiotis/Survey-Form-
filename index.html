@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Survey Form Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+     <figcaption class="figure">
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      </figcaption></div>
+        <form id="survey-form">
+            <label id="name-label" >
+              <div class="mor">Name
+              </div>
+             <input type="text" id="name" placeholder="Enter your name" required />
+             </label>
+             <label id="email-label">
+              <div>Email
+              </div>
+              <input type="email" id="email" placeholder="Enter your email" required/>
+             </label>
+             <label id="number-label">
+              <div>Age(optional)
+              </div>
+              <input type="number" id="number" min="18" max="100" placeholder="Age" required/>
+             </label>
+             <label>
+              <div>
+               <div>Which option best describes your current role?
+               </div>
+               <select id="dropdown">
+                 <option>select current role
+                 </option>
+                 <option>Student
+                 </option>
+                 <option>Full time job
+                  </option>
+                  <option>Full time learner
+                  </option>
+                  <option>Prefer not to say
+                  </option>
+                  <option>Other
+                  </option>
+               </select
+              </div>
+            </label>
+           <div>Would you recommend freeCodeCamp to a friend?
+           </div>
+           <div>
+            <input type="radio" value="for sure" name="recommendation"/>
+            Definetely
+           </div>
+           <div>
+            <input type="radio" value="possibly" name="recommendation" />
+            Maybe
+           </div>
+           <div>
+            <input type="radio" value="unsure" name="recommendation" />
+            Not sure
+           </div>
+           <div>
+            <p >What would you like to see improved? (Check all that apply)</p>
+            <input type="checkbox" value="Front-end" id="F-end"/>
+            Front-end Projects
+           </div>
+           <div>
+            <input type="checkbox" value="Back-end" id="B-end"/>
+            Back-end Projects
+           </div>
+           <div>
+            <input type="checkbox" value="Data" id="Data-V"/>
+            Data Visualization
+           </div>
+           <div>
+            <input type="checkbox" value="Challenges" id="Challenges"/>
+            Challenges
+           </div>
+           <div>
+            <input type="checkbox" value="OP-Community" id="OpenSource-C"/>
+            Open Source Community
+           </div>
+           <div>
+            <input type="checkbox" value="GH-rooms" id="Giheroo"/>
+            Gitter help rooms
+           </div>
+           <div>
+            <input type="checkbox" value="Vids" id="Vs"/>
+            Videos
+           </div>
+           <div>
+            <input type="checkbox" value="CT-meetups" id="CTM"/>
+            City Meetups
+           </div>
+           <div>
+            <input type="checkbox" value="Weaky" id="Wk"/>
+            Wiki
+           </div>
+           <div>
+            <input type="checkbox" value="Frm" id="ForUm"/>
+            Forum
+           </div>
+           <div>
+            <input type="checkbox" value="Ad C" id="AD-courses"/>
+            Additional Courses
+           </div>
+           <div class="textA">
+            Any comments or suggestions?
+           </div>
+           <div>  
+            <textarea placeholder="enter your comment here..."></textarea>
+           </div>
+           <div>
+            <button type="submit" id="submit">
+              submit
+            </button>
+           </div>
+    </form>
+  </div>
+  </body>
+</html>
